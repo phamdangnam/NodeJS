@@ -1,17 +1,18 @@
 {
   "type": "module",
-  "name": "weather-app",
+  "name": "task-manager",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "postman-request": "^2.88.1-postman.33",
-    "request": "^2.88.2",
-    "validator": "^13.11.0"
+    "mongodb": "^4.17.2",
+    "mongoose": "^8.0.3",
+    "npm": "^10.2.5"
   }
 }
